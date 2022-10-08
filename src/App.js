@@ -1,10 +1,9 @@
 import './App.css';
-import { Button } from 'antd';
+import Mylayout from './components/Mylayout';
 function App() {
   return (
     <div className="App">
-      <h1>My First Project and Deployed in github</h1>
-      <Button type="primary">Primary Button</Button>
+      <Mylayout />
     </div>
   );
 }
