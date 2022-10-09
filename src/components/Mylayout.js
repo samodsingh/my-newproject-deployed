@@ -3,7 +3,7 @@ import "./Mylayout.css";
 import Mynavbar from './navsection/Mynavbar';
 import Formsection from './Formsection/Formsection';
 import Aboutpage from './Aboutsection/Aboutpage';
-// import CardSlider from './CardsliderSection/CardSlider';
+import CardSlider from './CardsliderSection/Cardslider';
 // import Carouselpage from './Carouselpage/Carousel';
 import Counterpage from './CounterSectionpage/Counterpage';
 import Footer from './Footersection/Footer';
@@ -16,7 +16,7 @@ const Mylayout = () => {
         <Mynavbar />
         <Formsection />
         <Aboutpage />
-        {/* <CardSlider /> */}
+        <CardSlider />
         {/* <Carouselpage /> */}
         <Counterpage />
         <Footer />

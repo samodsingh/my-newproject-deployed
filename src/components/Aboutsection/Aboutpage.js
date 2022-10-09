@@ -33,7 +33,7 @@ const Aboutpage = () => {
             {/* OUR VISION & MISSION Start------------ */}
             <Row justify="center">
                 <Col xs={24} sm={24} md={12} lg={11} >
-                    <img src={aboutbottomimage} alt="About image"  className='aboutimage_style'/>
+                    <img src={aboutbottomimage} alt="About image"  className='aboutbottomimage_style'/>
                 </Col>
                 <Col xs={24} sm={24} md={12} lg={11} >
                 <div className='about-us-info-bottom'>

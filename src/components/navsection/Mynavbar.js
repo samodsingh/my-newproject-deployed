@@ -48,7 +48,7 @@ const Mynavbar = () => {
                 <img src={logo} alt="MyLogo" />
                 <div className="drawar">
                     <MenuOutlined onClick={showDrawer} />
-                    <Drawer title="Basic Drawer" placement="right" width={200} onClose={onClose} open={open}>
+                    <Drawer title="Menu" placement="right" width={200} onClose={onClose} open={open}>
                         <p>Home</p>
                         <p>About us</p>
                         <p>Contact us</p>
