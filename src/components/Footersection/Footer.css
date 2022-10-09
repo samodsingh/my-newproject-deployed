@@ -1,0 +1,45 @@
+.footerSection{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 80px 0 20px 0;
+}
+.footerSection .container-style{
+    padding: 0px;
+}
+
+.icon-style{
+    color: orange;
+    margin: 5px;
+}
+.footerSection .container-style .text-style-footer h1{
+    color: white;
+}
+.footerSection .container-style .text-style-footer{
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-bottom: 50px;
+    }
+.footer-bottum{
+    padding-top: 20px;
+    width: 50%;   
+}
+.footer-bottum h3{
+    color: white;
+}
+/* media query------------- */
+
+@media only screen and (max-width: 600px) {
+    .footerSection .container-style .text-style-footer{
+        padding: 14px;
+        font-size: 16px;
+
+    }
+    .footerSection{
+        padding: 30px 0 20px 0;
+    }
+    .footer-bottum{
+        width: 100%;   
+        font-size: 15px;
+    }
+  }
+

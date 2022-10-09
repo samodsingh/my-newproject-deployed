@@ -1,0 +1,109 @@
+.counter-section{
+    width: 100%;
+    }
+    .counter-cantainer {
+        background-image: url(../../images/counter_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 70%;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        overflow: hidden;
+        padding: 10px 10px;
+    }
+    
+    .counter_heading h1{
+        position: relative;
+        font-size: 50px;
+        margin:30px 0 32px 0;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 0.03em;
+        font-weight: 900;
+        display: inline-block;
+        color: #011F5B;   
+    }
+    
+    .counter_heading p{
+        font-size: 25px;
+        line-height: 32px;
+        font-weight: 500;
+        font-family: 'Lato', sans-serif;
+        color: #000000;
+        margin-bottom: 12px;
+        padding: 0px 0 0 24px;
+        word-spacing: 0.03em;
+        letter-spacing: 0px;
+    }
+    .card-container{
+        padding: 10px;
+        align-items: center;
+    }
+    .card-container .card-title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+     .card-title h3{
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-weight: 600;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+        line-height: 42px;
+        text-transform: capitalize;
+        letter-spacing: 0.03em;
+        position: relative;
+        color: #254559;
+    }
+    .card-title .counter {
+        display: block;
+        margin-top: 0px;
+        font-size: 42px;
+        color: #011F5B;
+        font-weight: 900;
+        font-family: 'Lato', sans-serif;
+    }
+    .card-title .counter-icons{
+        font-size: 50px;
+        display: block;
+        margin: 32px 0;
+        color: #254559;
+    }
+    .app-banner {
+        width: 100%;
+        padding: 80px 100px 100px 50px;
+    }
+    .app-banner img{
+        width: 100%;
+    }
+    /* media query--------- */
+    @media only screen and (max-width: 600px) {
+        .counter_heading h1{
+            font-size: 30px;
+            margin:15px 0 16px 0;
+            letter-spacing: 0.03em;
+            font-weight: 600;         
+        }
+        .counter_heading p{
+            font-size:  16px;
+            line-height: 20px;
+            margin-bottom: 0px;
+        }
+        .card-container .card-title{
+            margin-bottom: 10px;
+        }
+        .card-title h3{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-weight: 500;
+            font-size: 18px;
+           }
+           .card-title .counter {      
+            font-size: 25px;
+            font-weight: 800;
+        }
+        .app-banner {
+            width: 100%;
+            padding:20px 0px;
+        }
+      }

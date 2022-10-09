@@ -5,8 +5,8 @@ import Formsection from './Formsection/Formsection';
 import Aboutpage from './Aboutsection/Aboutpage';
 // import CardSlider from './CardsliderSection/CardSlider';
 // import Carouselpage from './Carouselpage/Carousel';
-// import Counterpage from './CounterSectionpage/Counterpage';
-// import Footer from './Footersection/Footer';
+import Counterpage from './CounterSectionpage/Counterpage';
+import Footer from './Footersection/Footer';
 
 
 
@@ -18,8 +18,8 @@ const Mylayout = () => {
         <Aboutpage />
         {/* <CardSlider /> */}
         {/* <Carouselpage /> */}
-        {/* <Counterpage /> */}
-        {/* <Footer /> */}
+        <Counterpage />
+        <Footer />
         
     </div>
   )
