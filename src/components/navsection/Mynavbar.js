@@ -9,7 +9,7 @@ import {
     LinkedinOutlined, YoutubeOutlined
 } from '@ant-design/icons';
 import { Col, Row } from 'antd';
-// import logo from "../../images/logo.png";
+import logo from "../../images/logo.png";
 
 
 const Mynavbar = () => {
@@ -45,7 +45,7 @@ const Mynavbar = () => {
                 </Row>
             </div>
             <div className="bottom-nav">
-                {/* <img src={logo} alt="MyLogo" /> */}
+                <img src={logo} alt="MyLogo" />
                 <div className="drawar">
                     <MenuOutlined onClick={showDrawer} />
                     <Drawer title="Basic Drawer" placement="right" width={200} onClose={onClose} open={open}>

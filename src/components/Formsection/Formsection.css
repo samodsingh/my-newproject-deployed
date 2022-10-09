@@ -1,0 +1,106 @@
+#Section1{
+    background: transparent;
+    background-image: url(../../images/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: initial;
+    position: relative;
+    padding: 50px;
+}
+
+#Section1 .section1-left-text{
+    padding-top: 150px;
+    text-align: left;
+}
+
+#Section1 .section1-left-text h1{
+    display: block;
+    letter-spacing: 0em;
+    margin-bottom: 48px;
+    color: #FFFFFF;
+    position: relative;
+    font-size:50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+#Section1 .section1-left-text p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    padding: 0px 0 0 0px;
+    word-spacing: 0.03em;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+#Section1 .section1-left-text .text-primary-color{
+    color: #FFB800;
+}
+.appointment_arrow_style{
+    margin-left: 70%;
+}
+
+#Section1 .myform_style{
+    /* background-color: blue; */
+    padding: 20px;
+    text-align: center;
+    margin: 50px 10px;
+}
+#Section1 .myform_style .card-style{
+    background-color: #011f5b;
+    border: none;
+    font-size: 25px;
+}
+#Section1 .myform_style .card-style h1{
+    font-family: 'Playfair Display', serif;    
+    color: #FFB800;
+}
+
+.btn-theme-invert {
+    width: 140px;
+    height: 60px;
+    color: #011f5b;
+    background-color: #FFB800;
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid;
+    
+}
+.btn-theme-invert a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.btn-theme-invert:hover{
+    color: whitesmoke;
+    background-color:#011f5b ;
+}
+.imgplaystore-style{
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    #Section1{         
+        padding: 10px;
+    }
+    #Section1 .section1-left-text{
+        padding-top: 10px;
+    }
+    #Section1 .section1-left-text h1{
+        margin-bottom: 0;
+        text-align: center;  
+        font-size:30px;
+    }
+    .appointment_arrow_style{
+        margin: 0px;
+    }
+    #Section1 .myform_style{
+        padding: 5px;
+        margin: 20px 0px;
+    }
+  }
