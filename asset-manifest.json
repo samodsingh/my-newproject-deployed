@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-newproject-deployed/static/css/main.e984e443.css",
-    "main.js": "/my-newproject-deployed/static/js/main.bcf34db3.js",
+    "main.css": "/my-newproject-deployed/static/css/main.52ee9894.css",
+    "main.js": "/my-newproject-deployed/static/js/main.05b20bf8.js",
     "static/js/787.6834caaa.chunk.js": "/my-newproject-deployed/static/js/787.6834caaa.chunk.js",
     "static/media/app-banner.jpg": "/my-newproject-deployed/static/media/app-banner.ef6d50964e9ba32d626c.jpg",
     "static/media/backgroundimg.jpg": "/my-newproject-deployed/static/media/backgroundimg.dc5d6c6ce607e68a2718.jpg",
@@ -10,13 +10,15 @@
     "static/media/about_bottom_img.jpg": "/my-newproject-deployed/static/media/about_bottom_img.fab500172956f5bb7633.jpg",
     "static/media/logo.png": "/my-newproject-deployed/static/media/logo.74f17c78fe3b9e3a6ffe.png",
     "static/media/imgplaystore.png": "/my-newproject-deployed/static/media/imgplaystore.491bd64ae6f1f2d94b03.png",
+    "static/media/service_family_img2.jpg": "/my-newproject-deployed/static/media/service_family_img2.8aae74933089012c3b82.jpg",
+    "static/media/service_medical_img1.jpg": "/my-newproject-deployed/static/media/service_medical_img1.6b28f0fef29edc17d860.jpg",
     "index.html": "/my-newproject-deployed/index.html",
-    "main.e984e443.css.map": "/my-newproject-deployed/static/css/main.e984e443.css.map",
-    "main.bcf34db3.js.map": "/my-newproject-deployed/static/js/main.bcf34db3.js.map",
+    "main.52ee9894.css.map": "/my-newproject-deployed/static/css/main.52ee9894.css.map",
+    "main.05b20bf8.js.map": "/my-newproject-deployed/static/js/main.05b20bf8.js.map",
     "787.6834caaa.chunk.js.map": "/my-newproject-deployed/static/js/787.6834caaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e984e443.css",
-    "static/js/main.bcf34db3.js"
+    "static/css/main.52ee9894.css",
+    "static/js/main.05b20bf8.js"
   ]
 }
